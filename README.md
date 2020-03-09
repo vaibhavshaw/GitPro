@@ -4,7 +4,7 @@
 checkout project @http://githubly.herokuapp.com/
 
 
-Tools and Technologies :  Django 2.2.2, Python 3.7, Sqlite3, VSCode.
+Tools and Technologies :  Django==3.0.4, Python 3.7, Sqlite3, VSCode.
 
 Front End Technologies :  Django Templates, HTML, CSS, Bootstrap4
 
