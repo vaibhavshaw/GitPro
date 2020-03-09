@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block title %}
+<div class="container">
+  <div class="row justify-content-center align-self-center">
+    <div class="text-center col-sm-12">
+      <h1 class="cover-heading">Get Your Request</h1>
+      <form method="post" action=".">
+        {% csrf_token %} {{ form }}
+        <p></p>
+        <input class="btn btn-primary" type="submit" value="GO &raquo" />
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

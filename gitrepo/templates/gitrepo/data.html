@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block title %}
+<p><a class="btn btn-primary" href="/">HOME &lsaquo;</a></p>
+<br />
+<h5>Top {{ top_N_repo}} Repositories, {{ top_M_committees }} Top Committees</h5>
+<h6>
+  Forks &emsp; Commit Counts &emsp; Committees &emsp; Repositories
+</h6>
+
+{% for reps in repo_all %}
+<ul>
+  {% for rep in reps %}
+  <li>
+    {{ rep }}
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %} {% endblock %}
